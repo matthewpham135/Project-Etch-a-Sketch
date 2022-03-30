@@ -6,8 +6,10 @@ body{
 body{
     margin: 0px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 100px;
 }
 
 
@@ -18,6 +20,15 @@ body{
     flex-direction: column;
 }
 
+#reset-button{
+    background-color: blue;
+    color: white;
+    border-radius: 2px;
+    border: white;
+    width: 200px;
+    height: auto;
+    font-size: 20px;
+}
 
 .row { 
     display: flex; 
