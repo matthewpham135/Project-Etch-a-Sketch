@@ -1,0 +1,44 @@
+html,
+body{
+    height: 100%;
+}
+
+body{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.row { 
+    display: flex; 
+    font-size: 9.5px; 
+    text-align: center; 
+    color: white;
+    flex: 1;
+    align-items: stretch;
+}
+
+.cell { 
+    /*
+    width: 10px; 
+    height: 10px; 
+    */
+    margin: 0px; 
+    
+    flex: 1;
+    border: .1px solid black;
+}
+
+.hover{
+    background-color: blue;
+}
